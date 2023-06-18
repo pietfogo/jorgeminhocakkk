@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+
+    color: #bb5e1b;
+
+    background-color: cornsilk;
+}
+
+.game, .game-over {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    font-family: 'New Tegomin', serif;
+    font-size: 3em;
+
+    margin: .2em 0;
+}
+.subtitulo {
+    font-family: 'Kiwi Maru', serif;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-align: center;
+
+    margin: .1em 0 1em;
+}
+.destaque {
+    display: block;
+    font-size: 1.4em;
+}
+
+.game-over {
+    width: 512px;
+
+    color: blue;
+    background-color: paleturquoise;
+}
+.game-over > .titulo {
+    font-size: 3rem;
+    margin: 0;
+}
+.game-over > .subtitulo {
+    font-size: 1.6rem;
+    margin: 0;
+}
+.game-over > .subtitulo > span {
+    font-size: 2rem;
+    color: red;
+}
+#btn {
+    font-size: 1.5rem;
+    color: #313131;
+    
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    padding: .5rem;
+    margin: 1.5rem;
+    background-color: #fff;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .6);
+}
+#btn:hover {
+    box-shadow: none;
+}
+
+.victory {
+    color: #ff6a00;
+    background-color: #fdf581;
+}
